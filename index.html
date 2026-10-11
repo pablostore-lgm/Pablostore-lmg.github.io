@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PabloStore | Loja Online</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px 12px;
+    }
+    header h1 { margin: 0; font-size: 32px; }
+    header p { color: #f3cf50; }
+    nav {
+      background: #d4ad32;
+      padding: 13px;
+      text-align: center;
+    }
+    nav a {
+      color: #111;
+      margin: 0 10px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .hero {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+    .hero h2 { font-size: 29px; }
+    .hero p { line-height: 1.6; }
+    .products {
+      padding: 25px 15px;
+      max-width: 850px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 18px 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px #ddd;
+    }
+    .emoji { font-size: 42px; }
+    .card h3 { font-size: 17px; }
+    .contact {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    .btn {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background: #000;
+      color: #bbb;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛍️ PabloStore</h1>
+    <p>Beleza, estilo e luxo</p>
+  </header>
+
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Bem-vindo à PabloStore!</h2>
+    <p>Descubra cosméticos, perfumes, produtos para cabelo e acessórios de luxo.</p>
+    <a class="btn" href="#produtos">Ver produtos</a>
+  </section>
+
+  <section class="products" id="produtos">
+    <h2 style="text-align:center">Os nossos produtos</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="emoji">🌸</div>
+        <h3>Perfumes e cosméticos</h3>
+        <p>Beleza e elegância.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">💇🏾</div>
+        <h3>Produtos para cabelo</h3>
+        <p>Cores e cuidados variados.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🧴</div>
+        <h3>Higiene pessoal</h3>
+        <p>Cremes e desodorizantes.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">⌚</div>
+        <h3>Acessórios de luxo</h3>
+        <p>Relógios, brincos e muito mais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <h2>Fale connosco</h2>
+    <p>Estamos disponíveis para atender os seus pedidos.</p>
+    <a class="btn" href="https://wa.me/244926059710">
+      Contactar pelo WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    © 2026 PabloStore. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
